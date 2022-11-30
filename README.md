@@ -39,5 +39,6 @@ yarn
 cd react-chrome-app
 yarn build
 ```
-- Go to chrome://extensions/ and Load unpacked "extension" folder
+- Go to chrome://extensions/ and [Load unpacked] generated "extension" folder
 - Reload Twitter
+- Enjoy
