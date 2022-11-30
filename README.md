@@ -34,7 +34,7 @@ Only available in dark mode and English
 cd react-chrome-app
 yarn
 ```
-- build chrome extension
+- build chrome extension:
 ```bash
 cd react-chrome-app
 yarn build
