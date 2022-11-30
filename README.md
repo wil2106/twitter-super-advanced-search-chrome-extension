@@ -1,8 +1,11 @@
 # Twitter Super Advanced Search Chrome Extension beta 1.0.0
 
 Chrome extension to replace twitter search bar with a discord inspired search bar.
+Made with React, Typescript and Tailwindcss.
+Tested on Chrome Version 108.0.5359.71 (x86_64) and Twitter version from 2022-11-30.
+Only available in dark mode and English.
 
-Filters available:
+## Filters available:
 
   - have_every: words separated by space (can only be use once in query)
   - have_exactly: words separated by space (can only be use once in query)
@@ -22,11 +25,6 @@ Filters available:
   - min_rt: number (can only be use once in query)
   - since: date with format yyyy-mm-dd (can only be use once in query)
   - until: date with format yyyy-mm-dd (can only be use once in query)
-
-
-Tested on Chrome Version 108.0.5359.71 (x86_64) and Twitter version from 2022-11-30
-
-Only available in dark mode and English
 
 ## Steps to run
 - install dependencies:
