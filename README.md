@@ -1,33 +1,43 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# Twitter Super Advanced Search Chrome Extension beta 1.0.0
 
-## Getting Started
+Chrome extension to replace twitter search bar with a discord inspired search bar.
 
-First, run the development server:
+Filters available:
 
+  - have_every: words separated by space (can only be use once in query)
+  - have_exactly: words separated by space (can only be use once in query)
+  - have_either: words separated by space (can only be use once in query)
+  - have_none: words separated by space (can only be use once in query)
+  - #: words separated by space (can only be use once in query)
+  - lang: language code (can only be use once in query)
+  - from: user id (can be used mulitple times)
+  - reply_to: user id (can be used mulitple times)
+  - mentions: user id (can be used mulitple times)
+  - replies: 'with' or 'only' or 'none' (can only be use once in query)
+  - links: 'with' or 'only' or 'none' (can only be use once in query)
+  - people: 'followed' or 'anyone' (can only be use once in query)
+  - location: 'near' or 'anywhere' (can only be use once in query)
+  - min_replies: number (can only be use once in query)
+  - min_likes: number (can only be use once in query)
+  - min_rt: number (can only be use once in query)
+  - since: date with format yyyy-mm-dd (can only be use once in query)
+  - until: date with format yyyy-mm-dd (can only be use once in query)
+
+
+Tested on Chrome Version 108.0.5359.71 (x86_64) and Twitter version from 2022-11-30
+
+Only available in dark mode and English
+
+## Steps to run
+- install dependencies:
 ```bash
-pnpm dev
-# or
-npm run dev
+cd react-chrome-app
+yarn
 ```
-
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
-
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
-
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
-
-## Making production build
-
-Run the following:
-
+- build chrome extension
 ```bash
-pnpm build
-# or
-npm run build
+cd react-chrome-app
+yarn build
 ```
-
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
-
-## Submit to the webstores
-
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/workflows/submit) and you should be on your way for automated submission!
+- Go to chrome://extensions/ and Load unpacked "extension" folder
+- Reload Twitter
