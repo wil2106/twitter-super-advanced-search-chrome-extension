@@ -40,3 +40,9 @@ yarn build
 - Go to chrome://extensions/ and [Load unpacked] generated "extension" folder
 - Reload Twitter
 - Enjoy
+
+## Video
+
+
+https://user-images.githubusercontent.com/25795688/223787471-ca882c60-c207-4685-b6cd-295f26002509.mp4
+
