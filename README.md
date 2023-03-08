@@ -1,5 +1,10 @@
 # Twitter Super Advanced Search Chrome Extension beta 1.0.0
 
+
+
+https://user-images.githubusercontent.com/25795688/223787794-00db67a6-8f20-4a0f-8c28-5ac44270ab93.mp4
+
+
 Chrome extension to replace twitter search bar with a discord inspired search bar.
 Made with React, Typescript and Tailwindcss.
 Tested on Chrome Version 108.0.5359.71 (x86_64) and Twitter version from 2022-11-30.
@@ -40,9 +45,4 @@ yarn build
 - Go to chrome://extensions/ and [Load unpacked] generated "extension" folder
 - Reload Twitter
 - Enjoy
-
-## Video
-
-
-https://user-images.githubusercontent.com/25795688/223787471-ca882c60-c207-4685-b6cd-295f26002509.mp4
 
